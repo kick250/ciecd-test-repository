@@ -25,5 +25,5 @@ jobs:
 
       - name: Rodar testes
         run: |
-          pytest
+          cd tests && pytest
 
